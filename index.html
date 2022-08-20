@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macys Online Shopping</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <i class="fa fa-star fa-2x"></i>
+            <h1>macys</h1>
+        </div>
+        <div class="icon">
+            <i class="fa fa-cart-arrow-down fa-2x"></i>
+        </div>
+    </header>
+    <!-- header ends here -->
+
+    <!-- general container -->
+    <div class="gen-container">
+        <!-- container for the shipping form -->
+        <div class="form">
+            <h1>Shipping</h1>
+            <p>Shipping Address</p>
+            <hr>
+            <!-- the form starts here -->
+            <form action="" method="post">
+                <div class="container">
+                    <label for="firstname">First Name</label>
+                    <input type="text" required>
+
+                    <label for="lastname">Last Name</label>
+                    <input type="text" required>
+
+                    <label for="address">Address Line 1</label>
+                    <input type="text" required>
+
+                    <label for="address2">Address Line 2 <span>(optional)</span></label>
+                    <input type="text" placeholder="Apt, Suite, Bldg, Floor, etc">
+
+                    <div class="zipstate">
+                        <div class="zip">
+                            <label for="zip">ZIP Code</label>
+                            <input type="number" required>
+                        </div>
+                        <div class="state">
+                            <label for="state">State</label>
+                            <select>
+                                <option value="">Select</option>
+                                <option value="Abia">Abia State</option>
+                                <option value="Adamawa">Adamawa State</option>
+                                <option value="Akwa Ibom">Akwa Ibom State</option>
+                                <option value="Anambra">Anambra State</option>
+                                <option value="Bauchi">Bauchi State</option>
+                                <option value="Imo">Imo State</option>
+                                <option value="Enugu">Enugu State</option>
+                                <option value="Delta">Delta State</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <label for="city">City</label>
+                    <input type="text" required>
+                    <label for="number">Phone Number</label>
+                    <input type="number" required>
+                </div>
+                <h4>Shipping Method</h4>
+                <hr>
+                <div class="standard">
+                    <p>Standard</p>
+                    <p>&dollar;10.95</p>
+                </div>
+                <div class="btn">
+                    <button type="submit" name="submit">Submit</button>
+                </div>
+            </form>
+            <!-- the form ends here -->
+        </div>
+        <!-- container for the shipping ends here -->
+
+        <!-- container for the calculation starts here -->
+        <div class="cal">
+            <div class="content">
+                <div class="subtotal">
+                    <h3>Subtotal</h3>
+                    <h3>&dollar;41.40</h3>
+                </div>
+                <div class="shop">
+                    <p>Shopping</p>
+                    <p>&dollar;10.95</p>
+                </div>
+                <div class="tax">
+                    <p>Estimated tax <span class="fa fa-exclamation-circle"></span></p>
+                    <p>&dollar;2.48</p>
+                </div>
+            </div>
+            <hr>
+            <div class="amount">
+                <div class="order">
+                    <h3>Order Total</h3>
+                    <h3>&dollar;54.83</h3>
+                </div>
+                <div class="saved">
+                    <h3>You saved</h3>
+                    <h3>&dollar;27.60</h3>
+                </div>
+                <button type="button">Place Order</button>
+            </div>
+        </div>
+        <!-- container for the calculation starts here -->
+    </div>
+    <!-- general container ends here -->
+
+    <!-- footer starts here -->
+    <footer>
+        <p><i class="fa fa-star"></i> <span>macys</span> &copy; 2022 All Rights Reserved</p>
+    </footer>
+    <!-- end of footer -->
+</body>
+
+</html>
